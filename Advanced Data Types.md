@@ -45,7 +45,7 @@ we can use `!!map` data type
 We can also define **Nested Mappings**. Map within a map.
 
 ```
-name: Kunal Kushwaha
+name: Shubh Karman 
 role:
  age: 22
  job: student
@@ -53,7 +53,7 @@ role:
 
 We can also do something like
 ```
-name: Kunal Kushwaha
+name: Shubh Karman 
 role: {age: 22, job: student}
 
 ```
@@ -77,7 +77,7 @@ pairExamples: !!pairs [job: student, job: teacher]
 
 ```
 names: !!set
- ? Kunal
+ ? Shubh Karman
  ? Apoorv
  ? Rahul
 ```
@@ -87,7 +87,7 @@ names: !!set
 ```
 people: !!omap
  - Kunal:
-	 name: Kunal Kushwaha
+	 name: Shubh Karman
 	 age: 22 
  - Rahul: 
 	 name: Rahul Sharma 
